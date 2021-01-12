@@ -29,6 +29,8 @@ public:
     };
     Card();
     Card(CardRank, CardSuits);
+    void print_card();
+    int get_score();
 private:
     CardRank m_rank;
     CardSuits m_suit;

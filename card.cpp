@@ -7,3 +7,10 @@ Card::Card(CardRank f_rank, CardSuits f_suit) {
 	m_rank = f_rank;
 	m_suit = f_suit;
 }
+void Card::print_card() {
+
+}
+
+int Card::get_score() {
+	return 0;
+}
