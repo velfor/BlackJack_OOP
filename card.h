@@ -1,5 +1,5 @@
 #pragma once
-
+#include <iostream>
 class Card
 {
 
@@ -31,6 +31,9 @@ public:
     Card(CardRank, CardSuits);
     void print_card();
     int get_score();
+    CardRank get_rank();
+    CardSuits get_suit();
+    friend std::ostream& operator<<(std::ostream& , Card&);
 private:
     CardRank m_rank;
     CardSuits m_suit;

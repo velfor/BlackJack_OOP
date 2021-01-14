@@ -1,6 +1,7 @@
 #pragma once
 #include "card.h"
 #include <vector>
+#include <fstream>
 class Deck {
 private:
 	const int deck_size = 52;
@@ -11,4 +12,5 @@ public:
 	void shuffle();//перетасовать колоду
 	Card pop();//взять верхнюю карту
 	void print_deck();//печать колоду
+	
 };
