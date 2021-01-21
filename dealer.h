@@ -1,7 +1,7 @@
 #pragma once
 #include "hand.h"
 #include "deck.h"
-class Player:public Hand {
+class Dealer: public Hand {
 public:
 	void play(Deck&);
 };
